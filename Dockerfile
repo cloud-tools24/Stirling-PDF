@@ -13,7 +13,7 @@ ARG VERSION_TAG
 # Set Environment Variables
 ENV DOCKER_ENABLE_SECURITY=false \
     VERSION_TAG=$VERSION_TAG \
-    JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -XX:MaxRAMPercentage=75" \
+    JAVA_TOOL_OPTIONS="-XX:MaxRAMPercentage=75" \
     HOME=/home/stirlingpdfuser \
     PUID=1000 \
     PGID=1000 \
