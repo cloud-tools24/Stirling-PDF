@@ -17,6 +17,12 @@ All files and PDFs exist either exclusively on the client side, reside in server
 
 ![stirling-home](images/stirling-home.jpg)
 
+## Docker
+You can simply run the build_docker script, this will download java version 19 and build the docker
+```bash
+bash build_docker.sh
+```
+
 ## Features
 
 - Dark mode support.
